@@ -4,7 +4,7 @@ This flow reports at a regular interval the number of active Helium hotspots as 
 ## About the Helium API
 Documentation on the Helium api can be found here: https://docs.helium.com/api/blockchain/cities
 
-To request the number of hotspots in your city you need the Helium city\_id. To find the city\_id for your town anter the following url in your browser. Substitute "Apeldoorn" with the city you are looking for: 
+To request the number of hotspots in your city you need the Helium city\_id. To find the city\_id for your town enter the following url in your browser. Substitute "Apeldoorn" with the city you are looking for: 
 ```
 https://api.helium.io/v1/cities?search=Apeldoorn
 ```
@@ -24,10 +24,11 @@ The message is Tweeted using a Twitter node.
 
 ![tweet.png](tweet.png)
 
+To setup a Twitter bot this howto my be usefull: https://blog.hubspot.com/website/how-to-make-a-twitter-bot 
 ### Disclaimer
 This Node-red flow is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
 implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  
+
 ### License
 This Node-red is free software and hardware: 
 you can redistribute it and/or modify it under the terms of a Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/) by PE1MEW (http://pe1mew.nl) E-mail: pe1mew@pe1mew.nl
